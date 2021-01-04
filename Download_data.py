@@ -30,4 +30,5 @@ for date in daterange(start_date, end_date):
     if 5 <= date.weekday() <= 6:
         continue
     bhavcopy = nse_bhavcopy(date)
-    time.sleep(5)
+    time.sleep()
+
